@@ -1,4 +1,4 @@
-# 🌍 World Leader Group Chat Simulator
+# 🌍 Devlet Başkanlarının Komik Whatsapp Simulasyonu
 
 ![Intro](./worldleader.png)
 
