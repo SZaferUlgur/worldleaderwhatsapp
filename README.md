@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# 🌍 World Leader Group Chat Simulator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Intro](./worldleader.png)
 
-## Available Scripts
+Bu proje, ReactJS kullanılarak geliştirilmiş eğlenceli bir mesajlaşma simülatörüdür. Dünya liderlerinin grup sohbetini canlandıran bir arayüzle, gelen mesajlara ses efektleri, bayrak simgeleri ve animasyonlu içerikler eşliğinde keyifli bir deneyim sunar.
 
-In the project directory, you can run:
+> Bu uygulama, `Create React App` kullanılarak başlatılmıştır.
+
+## 🚀 Özellikler
+
+- 🌐 Dünya liderleriyle temsili grup sohbeti
+- 📩 Otomatik zamanlı mesaj gösterimi
+- 📢 Mesaj türüne göre ses efektleri (metin, durum, görsel, silinmiş vs.)
+- 🇺🇳 Ülkelere özel bayrak ikonları
+- 🎵 Gerçek zamanlı bildirim sesleri
+- 💬 Mesaj içinde link desteği
+- 📷 Görsel mesaj desteği
+- 📱 Mobil WhatsApp benzeri arayüz
+
+## 📂 Proje Yapısı
+
+├── public/ 
+├── src/ 
+├── assets/ 
+# Görsel ve ses dosyaları 
+├── messages.js 
+# Örnek mesaj verileri 
+├── App.js 
+# Ana uygulama bileşeni 
+├── App.css 
+# Özel stil dosyası 
+└── ... 
+├── package.json 
+└── README.md
+
+
+## 🧑‍💻 Geliştirici Komutları
+
+Aşağıdaki komutları terminalde kullanarak projeyi çalıştırabilir ya da build alabilirsiniz:
+
+### `npm install`
+
+Gerekli tüm bağımlılıkları yükler.
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Uygulamayı geliştirme modunda başlatır.\
+[http://localhost:3000](http://localhost:3000) adresinden uygulamayı görüntüleyebilirsiniz.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Uygulamayı production (yayın) modunda derler.\
+`build/` klasörü altında optimize edilmiş çıktıyı oluşturur.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🔊 Ses Bildirimleri
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Uygulamada kullanılan bildirim sesleri:
 
-### `npm run eject`
+- `text.mp3` → Yeni metin mesajı
+- `status.mp3` → Durum mesajı
+- `iphone.mp3` → Görsel mesaj bildirimi
+- `deleted.mp3` → Silinmiş mesaj bildirimi
+- `vibro.mp3` → Yazıyor... animasyonu için
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📦 Kullanılan Kütüphaneler
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [React Icons](https://react-icons.github.io/react-icons/) – simgeler
+- [Create React App](https://create-react-app.dev/) – proje kurulumu
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🎯 Geliştirici Notları
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Bu proje bir mesajlaşma uygulaması değildir, sadece simülasyon amaçlıdır. Kod yapısı, animasyon ve UI örnekleriyle React geliştirme pratiği için uygundur.
 
-## Learn More
+## 📸 Ekran Görüntüsü
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Simülasyon Görseli](./src/assets/world.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📃 Lisans
 
-### Code Splitting
+MIT © 2025
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> Eğlenceli bir grup sohbet deneyimi için arkanıza yaslanın ve gelen mesajları izleyin! 🎬
